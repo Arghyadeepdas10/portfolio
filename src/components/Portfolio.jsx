@@ -460,9 +460,9 @@ const Portfolio = () => {
 
         <footer className="s-footer">
             <div className="row">
-                <div className="column ss-copyright">
-                    <span>Design by <a href="https://www.styleshout.com/" target='blank'>StyleShout</a> Distribution By <a href="https://themewagon.com" target='blank'>Themewagon</a></span>
-                </div>
+                {/* <div className="column ss-copyright">
+                    <span>Design by <a href="https://www.styleshout.com/" target='blank'>StyleShout</a> Distribution By <a href="https://themewagon.com" target='blank'>myself</a></span>
+                </div> */}
 
                 <div className="ss-go-top">
                     <a className="smoothscroll" title="Back to Top" href="/">
