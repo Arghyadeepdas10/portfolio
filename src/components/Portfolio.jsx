@@ -81,7 +81,7 @@ const Portfolio = () => {
                         <ul className="skills-list h1" >
                             <li>Visual Design</li>
                             <li>UI Design</li>
-                            <li>HTML, CSS, Bootstrap, React (React-native + MaterialUI + Tailwind CSS)</li>
+                            <li>HTML, CSS, Bootstrap, React (MaterialUI + Tailwind CSS)</li>
                         </ul>
                     </div>
                 </div> 
