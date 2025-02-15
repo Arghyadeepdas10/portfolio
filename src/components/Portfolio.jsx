@@ -452,7 +452,7 @@ const Portfolio = () => {
                         </ul>
                     </div>
                     <div className="column lg-4 md-12 contact-block">
-                        <a href="mailto:sayhello@luther.com" className="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+                        <a href="mailto:arghyadeepdas10@gmail.com" className="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
                     </div>
                 </div> 
             </section> 
