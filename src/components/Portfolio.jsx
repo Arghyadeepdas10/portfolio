@@ -1,7 +1,8 @@
 import React from 'react'
-import 'swiper/css'
+import 'swiper/css';
 
 const Portfolio = () => {
+
   return (
     <>  
     <header className="s-header">
@@ -107,17 +108,7 @@ const Portfolio = () => {
                                     </ul>
                                 </div>
                             </div>
-                            {/* <div className="timeline__block">
-                                <div className="timeline__bullet"></div>
-                                <div className="timeline__header">
-                                    <h4 className="timeline__title">Microsoft</h4>
-                                    <h5 className="timeline__meta">Frontend Developer</h5>
-                                    <p className="timeline__timeframe">August 2016 - July 2019</p>
-                                </div>
-                                <div className="timeline__desc">
-                                    <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
-                                </div>
-                            </div> */}
+                            
                         </div> 
                     </div> 
 
@@ -381,76 +372,75 @@ const Portfolio = () => {
                     </div>  */}
 
                 </div> 
-                <div className="row testimonials">
-                    <div className="column lg-12">
-                        <div className="swiper-container testimonial-slider" >
-                            <div className="swiper-wrapper">
-                                <div className="testimonial-slider__slide swiper-slide">
-                                    <div className="testimonial-slider__author">
-                                        <img src="images/avatars/user-02.jpg" alt="Author image" className="testimonial-slider__avatar"/>
-                                        <cite className="testimonial-slider__cite">
-                                            <strong>Tim Cook</strong>
-                                            <span>CEO, Apple</span>
-                                        </cite>
-                                    </div>
-                                    <p>
-                                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.  Nisi dolores quaerat fuga rem nihil nostrum.
-                                    Laudantium quia consequatur molestias delectus culpa.
-                                    </p>
+                    <div className="row testimonials">
+                        <div className="column lg-12">
+                            <div className="swiper-container testimonial-slider" >
+                                <div className="swiper-wrapper">
+                                    <div className="testimonial-slider__slide swiper-slide">
+                                        <div className="testimonial-slider__author">
+                                            <img src="images/avatars/user-02.jpg" alt="Author image" className="testimonial-slider__avatar"/>
+                                            <cite className="testimonial-slider__cite">
+                                                <strong>Tim Cook</strong>
+                                                <span>CEO, Apple</span>
+                                            </cite>
+                                        </div>
+                                        <p>
+                                        Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
+                                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.  Nisi dolores quaerat fuga rem nihil nostrum.
+                                        Laudantium quia consequatur molestias delectus culpa.
+                                        </p>
+                                    </div> 
+                    
+                                    <div className="testimonial-slider__slide swiper-slide">
+                                        <div className="testimonial-slider__author">
+                                            <img src="images/avatars/user-03.jpg" alt="Author image" className="testimonial-slider__avatar"/>
+                                            <cite className="testimonial-slider__cite">
+                                                <strong>Sundar Pichai</strong>
+                                                <span>CEO, Google</span>
+                                            </cite>
+                                        </div>
+                                        <p>
+                                        Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                                        Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
+                                        Quasi voluptas eius distinctio. Atque eos maxime.
+                                        </p>
+                                    </div> 
+                    
+                                    <div className="testimonial-slider__slide swiper-slide">
+                                        <div className="testimonial-slider__author">
+                                            <img src="images/avatars/user-01.jpg" alt="Author image" className="testimonial-slider__avatar"/>
+                                            <cite className="testimonial-slider__cite">
+                                                <strong>Satya Nadella</strong>
+                                                <span>CEO, Microsoft</span>
+                                            </cite>
+                                        </div>
+                                        <p>
+                                        Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
+                                        Voluptatem dignissimos ut.
+                                        </p>
+                                    </div> 
+            
+                                    <div className="testimonial-slider__slide swiper-slide">
+                                        <div className="testimonial-slider__author">
+                                            <img src="images/avatars/user-06.jpg" alt="Author image" className="testimonial-slider__avatar"/>
+                                            <cite className="testimonial-slider__cite">
+                                                <strong>Jeff Bezos</strong>
+                                                <span>CEO, Amazon</span>
+                                            </cite>
+                                        </div>
+                                        <p>
+                                        Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis 
+                                        quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit. 
+                                        Nihil ea quia nesciunt. Ducimus aut sed ipsam.
+                                        </p>
+                                    </div> 
                                 </div> 
-                
-                                <div className="testimonial-slider__slide swiper-slide">
-                                    <div className="testimonial-slider__author">
-                                        <img src="images/avatars/user-03.jpg" alt="Author image" className="testimonial-slider__avatar"/>
-                                        <cite className="testimonial-slider__cite">
-                                            <strong>Sundar Pichai</strong>
-                                            <span>CEO, Google</span>
-                                        </cite>
-                                    </div>
-                                    <p>
-                                    Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                                    Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
-                                    Quasi voluptas eius distinctio. Atque eos maxime.
-                                    </p>
-                                </div> 
-                
-                                <div className="testimonial-slider__slide swiper-slide">
-                                    <div className="testimonial-slider__author">
-                                        <img src="images/avatars/user-01.jpg" alt="Author image" className="testimonial-slider__avatar"/>
-                                        <cite className="testimonial-slider__cite">
-                                            <strong>Satya Nadella</strong>
-                                            <span>CEO, Microsoft</span>
-                                        </cite>
-                                    </div>
-                                    <p>
-                                    Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                                    Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
-                                    Voluptatem dignissimos ut.
-                                    </p>
-                                </div> 
-        
-                                <div className="testimonial-slider__slide swiper-slide">
-                                    <div className="testimonial-slider__author">
-                                        <img src="images/avatars/user-06.jpg" alt="Author image" className="testimonial-slider__avatar"/>
-                                        <cite className="testimonial-slider__cite">
-                                            <strong>Jeff Bezos</strong>
-                                            <span>CEO, Amazon</span>
-                                        </cite>
-                                    </div>
-                                    <p>
-                                    Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis 
-                                    quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit. 
-                                    Nihil ea quia nesciunt. Ducimus aut sed ipsam.
-                                    </p>
-                                </div> 
+                                <div className="swiper-pagination"></div>
                             </div> 
-                            <div className="swiper-pagination"></div>
                         </div> 
                     </div> 
-                </div> 
             </section> 
-
 
             <section id="contact" className="s-contact target-section">
                 <div className="row contact-top">
@@ -471,7 +461,7 @@ const Portfolio = () => {
                         <h3 className="text-pretitle">Reach me at</h3>
                         <p className="contact-links">
                             <a href="mailto:sayhello@luther.com" className="mailtoui">arghyadeepdas10@gmail.com</a> <br/>
-                            <a href="tel:+1975432345">+91 8436 451 525</a>
+                            <a href="tel:+1975432345">+91 84364 51525</a>
                         </p>
                     </div>
                     <div className="column lg-4 md-5 tab-6 stack-on-550 contact-block">
