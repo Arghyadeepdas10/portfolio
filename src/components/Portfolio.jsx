@@ -70,7 +70,7 @@ const Portfolio = () => {
                             Ability to translate business requirements into technical solutions.
                             Ability to effectively self-manage during independent projects, as well as collaborate as part of a productive team.
                             </p>
-                            <a href="https://drive.google.com/file/d/1ydQS19enOo9olIUdI4gieCltxuiapxcw/view" target='blank' className="btn btn--medium u-fullwidth" >Download CV</a>
+                            <a href="https://docs.google.com/document/d/1Ksus7a79mLc344rBb9Ec-TYEjZGFvYSv/edit" target='blank' className="btn btn--medium u-fullwidth" >Download CV</a>
                         </div>
                     </div>
                 </div> 
